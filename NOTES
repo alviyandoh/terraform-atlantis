@@ -1,0 +1,10 @@
+PAT: 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
+
+atlantis server \
+--atlantis-url="http://34.101.221.11/" \
+--gh-user="alviyandoh" \
+--gh-token="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" \
+--gh-webhook-secret="Atlantis#123" \
+--repo-allowlist="github.com/alviyandoh/terraform-atlantis" \
+--port=80 \
+--repo-config="/etc/atlantis/config.yaml"
